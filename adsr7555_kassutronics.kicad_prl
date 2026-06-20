@@ -91,7 +91,18 @@
       8,
       9
     ],
-    "col_widths": [],
+    "col_widths": [
+      156,
+      141,
+      103,
+      71,
+      103,
+      103,
+      103,
+      74,
+      103,
+      103
+    ],
     "custom_group_rules": [],
     "expanded_rows": [],
     "filter_by_net_name": true,
@@ -103,11 +114,36 @@
     "show_unconnected_nets": false,
     "show_zero_pad_nets": false,
     "sort_ascending": true,
-    "sorting_column": -1
+    "sorting_column": 0
   },
   "open_jobsets": [],
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "adsr7555_kassutronics.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 284,
+          "pos_y": 34,
+          "size_x": 1198,
+          "size_y": 1083
+        }
+      },
+      {
+        "name": "adsr7555_kassutronics.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 39,
+          "pos_y": 34,
+          "size_x": 1689,
+          "size_y": 1027
+        }
+      }
+    ]
   },
   "schematic": {
     "hierarchy_collapsed": [],
