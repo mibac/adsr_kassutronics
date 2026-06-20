@@ -5220,7 +5220,7 @@
 		(fields_autoplaced yes)
 		(uuid "02471169-5093-4af7-83c6-15ef7b250b43")
 		(property "Reference" "U1"
-			(at 40.64 114.554 0)
+			(at 40.64 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5229,8 +5229,8 @@
 				)
 			)
 		)
-		(property "Value" "ICM7555xP"
-			(at 40.64 117.094 0)
+		(property "Value" "7555"
+			(at 40.64 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5328,7 +5328,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k Lin Atten"
+		(property "Value" "100k Lin Atn"
 			(at 205.74 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5339,7 +5339,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 203.2 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -5524,7 +5524,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "3904"
 			(at 232.41 156.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5641,7 +5641,7 @@
 				)
 			)
 		)
-		(property "Value" "1M Log Release"
+		(property "Value" "1M Log Rel"
 			(at 123.19 124.46 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8442,7 +8442,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized_US"
+		(property "Value" "100u"
 			(at 231.775 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8523,7 +8523,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "3904"
 			(at 71.12 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8960,7 +8960,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "3904"
 			(at 92.71 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9368,7 +9368,7 @@
 				)
 			)
 		)
-		(property "Value" "1M Log Decay"
+		(property "Value" "1M Log Dky"
 			(at 123.19 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9723,7 +9723,7 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized_US"
+		(property "Value" "100u"
 			(at 233.045 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10091,7 +10091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 248.92 58.7248 0)
 			(hide yes)
 			(show_name no)
@@ -10582,7 +10582,7 @@
 				)
 			)
 		)
-		(property "Value" "Atten Out"
+		(property "Value" "Atn Out"
 			(at 182.372 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11060,7 +11060,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NPN"
+		(property "Value" "3904"
 			(at 130.81 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11337,7 +11337,7 @@
 				)
 			)
 		)
-		(property "Value" "1M Log Attack"
+		(property "Value" "1M Log Atk"
 			(at 123.19 152.4 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11895,7 +11895,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f659e4ad-7bfc-4443-bc8c-518757be64aa")
 		(property "Reference" "RV14"
 			(at 67.31 109.2199 0)
@@ -11908,8 +11907,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10K Lin Sustain"
-			(at 67.31 111.7599 0)
+		(property "Value" "10K Lin Sus"
+			(at 67.31 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

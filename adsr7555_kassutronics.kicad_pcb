@@ -95,7 +95,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R21"
-			(at 3.81 -1.92 0)
+			(at -3.22 -0.26 0)
 			(layer "F.SilkS")
 			(uuid "aa3771d5-d2c1-4fee-9a64-f7ee21af49a2")
 			(effects
@@ -106,7 +106,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 3.81 1.92 0)
+			(at -2.97 1.24 0)
 			(layer "F.Fab")
 			(uuid "52b78320-2a8e-4828-93fc-ad1fc43206e2")
 			(effects
@@ -274,7 +274,7 @@
 		(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 		(tags "TO-92L Inline Wide transistor")
 		(property "Reference" "Q1"
-			(at 2.54 -3.56 270)
+			(at -3.02 0.25 0)
 			(layer "F.SilkS")
 			(uuid "fc0f0f0a-f7e6-420d-812e-401b6f6a6425")
 			(effects
@@ -284,8 +284,8 @@
 				)
 			)
 		)
-		(property "Value" "NPN"
-			(at 2.54 2.79 270)
+		(property "Value" "3904"
+			(at -1.67 -0.5 0)
 			(layer "F.Fab")
 			(uuid "e58ff14d-aa55-4567-87ce-fa641bb45b4b")
 			(effects
@@ -561,9 +561,8 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D4"
-			(at 3.81 -2.12 90)
+			(at 9.54 -0.04 180)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "276e1729-909c-48a9-b815-2ee8dfe21f24")
 			(effects
 				(font
@@ -573,7 +572,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 90)
+			(at 4.24 1.86 90)
 			(layer "F.Fab")
 			(uuid "7a8454b7-0763-4142-88bb-21f9d687568a")
 			(effects
@@ -777,20 +776,9 @@
 			(uuid "db5dc4e0-770e-4b13-98a5-eaaa8a5a58ed")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 90)
+			(at -0.06 1.66 180)
 			(layer "F.SilkS")
 			(uuid "7f4e0133-f7e4-4392-8c2e-58bfbb60d6f7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(fp_text user "K"
-			(at 0 -1.8 90)
-			(layer "F.Fab")
-			(uuid "0c4c38ac-e190-4821-aa9f-2b2efb262030")
 			(effects
 				(font
 					(size 1 1)
@@ -806,6 +794,17 @@
 				(font
 					(size 0.8 0.8)
 					(thickness 0.12)
+				)
+			)
+		)
+		(fp_text user "K"
+			(at 1.04 0 90)
+			(layer "F.Fab")
+			(uuid "0c4c38ac-e190-4821-aa9f-2b2efb262030")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -852,7 +851,7 @@
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U1"
-			(at 3.81 -2.33 0)
+			(at 1.92 -2.52 0)
 			(layer "F.SilkS")
 			(uuid "556be8b4-b34e-4580-8c60-46f851f3d447")
 			(effects
@@ -862,8 +861,8 @@
 				)
 			)
 		)
-		(property "Value" "ICM7555xP"
-			(at 3.81 9.95 0)
+		(property "Value" "7555"
+			(at 6.72 -2.52 0)
 			(layer "F.Fab")
 			(uuid "50a2d471-41e5-459b-9300-633f47bd780a")
 			(effects
@@ -1030,7 +1029,7 @@
 			(uuid "ae027721-917d-47df-9ff7-77ca22a64987")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 3.81 90)
+			(at 3.81 3.81 180)
 			(layer "F.Fab")
 			(uuid "d2146f5b-ad41-44e0-8a99-b4cc1679c30a")
 			(effects
@@ -1155,7 +1154,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "SW1"
-			(at 1.27 -4.12 90)
+			(at 6.01 -4.81 180)
 			(layer "F.SilkS")
 			(uuid "ca4752e1-08fb-44f5-8268-9909a04fb89f")
 			(effects
@@ -1166,7 +1165,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 1.27 4.08 90)
+			(at 1.27 -4.56 90)
 			(layer "F.Fab")
 			(uuid "37f6d38e-52d1-4a23-a8c3-14ca5b3ad8ba")
 			(effects
@@ -1466,9 +1465,8 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J4"
-			(at 1.27 -4.12 90)
+			(at 3.63 -4.56 180)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "ddf6e7a9-558f-4829-9773-e8155ce6035f")
 			(effects
 				(font
@@ -1478,7 +1476,7 @@
 			)
 		)
 		(property "Value" "Gate"
-			(at 1.27 4.08 90)
+			(at 0.63 -4.56 90)
 			(layer "F.Fab")
 			(uuid "15072f29-cf1d-4fc9-b06e-88ade3017898")
 			(effects
@@ -1779,7 +1777,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "RV9"
-			(at 2.54 -4.12 90)
+			(at 6.22 -6.96 180)
 			(layer "F.SilkS")
 			(uuid "1323604c-a93e-41a9-9275-d32532e0cac1")
 			(effects
@@ -1789,8 +1787,8 @@
 				)
 			)
 		)
-		(property "Value" "1M Log Attack"
-			(at 2.54 4.08 90)
+		(property "Value" "1M Log Atk"
+			(at 2.62 -4.36 90)
 			(layer "F.Fab")
 			(uuid "6e5160e6-b992-4bc6-8fc3-d2e9b51af0ae")
 			(effects
@@ -2171,7 +2169,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R6"
-			(at 3.81 -1.92 90)
+			(at 8.48 -2.8 180)
 			(layer "F.SilkS")
 			(uuid "aeabe324-11c2-4fb5-a07d-e6cb61b0f22d")
 			(effects
@@ -2182,7 +2180,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 3.81 1.92 90)
+			(at 7.18 -2.8 180)
 			(layer "F.Fab")
 			(uuid "eb9d8afc-7b26-4fea-b786-de51173f0a8e")
 			(effects
@@ -2350,7 +2348,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D1"
-			(at 5.08 -2.12 90)
+			(at 2.12 3.88 180)
 			(layer "F.SilkS")
 			(uuid "bd7de2dd-29a0-4e50-b62e-42651776d930")
 			(effects
@@ -2361,7 +2359,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 90)
+			(at 3.81 5.63 180)
 			(layer "F.Fab")
 			(uuid "672173ca-1c10-4803-829b-5c414469ace6")
 			(effects
@@ -2565,9 +2563,20 @@
 			(uuid "ecabae29-ffe2-4e80-93e2-182682851793")
 		)
 		(fp_text user "K"
-			(at 2.54 -2.54 90)
+			(at 1.62 1.63 180)
 			(layer "F.SilkS")
 			(uuid "c62ede51-9d17-4457-a23f-d04bfc2a9f98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "K"
+			(at 1.62 1.63 180)
+			(layer "F.Fab")
+			(uuid "92e385e2-4bc5-4437-820d-9cc9c0994ee6")
 			(effects
 				(font
 					(size 1 1)
@@ -2583,17 +2592,6 @@
 				(font
 					(size 0.8 0.8)
 					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "K"
-			(at 2.54 -2.54 90)
-			(layer "F.Fab")
-			(uuid "92e385e2-4bc5-4437-820d-9cc9c0994ee6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -2640,7 +2638,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R16"
-			(at 3.81 -1.92 90)
+			(at 10.5 0.24 180)
 			(layer "F.SilkS")
 			(uuid "507bfff9-e926-40fe-a9ac-a8b2051e52ed")
 			(effects
@@ -2651,7 +2649,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 3.81 1.92 90)
+			(at 9.2 0.44 180)
 			(layer "F.Fab")
 			(uuid "1507256b-48c1-4304-bf67-3b8ccc95d305")
 			(effects
@@ -2819,7 +2817,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, diameter=4mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm diameter 4mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C3"
-			(at 1 -3.25 90)
+			(at -2.22 -0.16 180)
 			(layer "F.SilkS")
 			(uuid "f03782a0-2a72-4a53-81bd-cc222e87dd09")
 			(effects
@@ -2830,7 +2828,7 @@
 			)
 		)
 		(property "Value" "1u Tant"
-			(at 1 3.25 90)
+			(at -2.22 -4.36 180)
 			(layer "F.Fab")
 			(uuid "91f7f941-8991-4066-ae08-99ab1574aa4a")
 			(effects
@@ -3939,7 +3937,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 4.7mm width 2.5mm Capacitor")
 		(property "Reference" "C2"
-			(at 2.5 -2.5 0)
+			(at -0.04 -3.54 0)
 			(layer "F.SilkS")
 			(uuid "72b82851-f143-46ba-b8bb-11d10b1ccea6")
 			(effects
@@ -3950,7 +3948,7 @@
 			)
 		)
 		(property "Value" "10n"
-			(at 2.5 2.5 0)
+			(at 2.96 -3.54 0)
 			(layer "F.Fab")
 			(uuid "baede680-05df-4e2a-8c4e-94cb4605f3d4")
 			(effects
@@ -4127,7 +4125,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R18"
-			(at 3.81 -1.92 90)
+			(at 9.36 0.04 180)
 			(layer "F.SilkS")
 			(uuid "4c7dbcb6-e4b1-410d-8c94-0f19f76a0834")
 			(effects
@@ -4138,7 +4136,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 3.81 1.92 90)
+			(at 1.16 2.54 180)
 			(layer "F.Fab")
 			(uuid "0dc443bc-5fb6-4581-af63-4765d3c94902")
 			(effects
@@ -4306,7 +4304,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "RV14"
-			(at 2.54 -4.12 90)
+			(at 10.54 -0.14 180)
 			(layer "F.SilkS")
 			(uuid "ae9541ed-b3ab-4617-9de3-f843ed65bba7")
 			(effects
@@ -4316,8 +4314,8 @@
 				)
 			)
 		)
-		(property "Value" "10K Lin Sustain"
-			(at 2.54 4.08 90)
+		(property "Value" "10K Lin Sus"
+			(at 9.14 -1.34 180)
 			(layer "F.Fab")
 			(uuid "8bcfea58-26c6-48a2-ba43-f0c4dbce0e8a")
 			(effects
@@ -4698,7 +4696,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R8"
-			(at 3.81 -1.92 0)
+			(at 7.8 1.82 0)
 			(layer "F.SilkS")
 			(uuid "2d4ab5d2-b895-40c1-9747-1810990c5d86")
 			(effects
@@ -4709,7 +4707,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 3.81 1.92 0)
+			(at 3.8 1.82 0)
 			(layer "F.Fab")
 			(uuid "12c68905-c592-4aa0-a1e9-739cb5aabe49")
 			(effects
@@ -4877,7 +4875,7 @@
 		(descr "14-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils), Socket")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil Socket")
 		(property "Reference" "U2"
-			(at 3.81 -2.33 0)
+			(at -0.18 -3.44 0)
 			(layer "F.SilkS")
 			(uuid "43beed53-985e-4504-b0a5-101033eec845")
 			(effects
@@ -4888,7 +4886,7 @@
 			)
 		)
 		(property "Value" "TL074"
-			(at 3.81 25.19 0)
+			(at 5.02 -3.54 0)
 			(layer "F.Fab")
 			(uuid "939600e8-c37d-4ba1-9c9d-59b6251ca289")
 			(effects
@@ -5280,7 +5278,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R10"
-			(at 3.81 -1.92 0)
+			(at 7.3 -2.02 0)
 			(layer "F.SilkS")
 			(uuid "e75eabb6-8008-4ef4-9671-a594fcd0855a")
 			(effects
@@ -5291,7 +5289,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 3.81 1.92 0)
+			(at 2.7 -1.92 0)
 			(layer "F.Fab")
 			(uuid "51363d3f-59f8-493f-aa63-495fadc0671d")
 			(effects
@@ -5459,7 +5457,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R5"
-			(at 3.81 -1.92 90)
+			(at 0.64 2.08 180)
 			(layer "F.SilkS")
 			(uuid "e0380ebb-e54b-42c7-9128-11701c80dea4")
 			(effects
@@ -5470,7 +5468,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 3.81 1.92 90)
+			(at -0.61 2.58 180)
 			(layer "F.Fab")
 			(uuid "6cc8617f-575c-4dc2-9d62-921ac675a385")
 			(effects
@@ -5638,7 +5636,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 4.7mm width 2.5mm Capacitor")
 		(property "Reference" "C1"
-			(at 2.5 -2.5 90)
+			(at 9.84 -0.33 180)
 			(layer "F.SilkS")
 			(uuid "9b00dccf-50c8-40a2-a274-a7302bd29047")
 			(effects
@@ -5649,7 +5647,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 2.5 2.5 90)
+			(at 8.59 -0.33 180)
 			(layer "F.Fab")
 			(uuid "bb8bbbb1-8c9d-437b-8ee3-dba333ebd6e6")
 			(effects
@@ -5826,7 +5824,7 @@
 		(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 		(tags "TO-92L Inline Wide transistor")
 		(property "Reference" "Q4"
-			(at 2.54 -3.56 90)
+			(at 6.02 -4.12 180)
 			(layer "F.SilkS")
 			(uuid "5b20a1a4-cba7-447a-9e20-30a99889db11")
 			(effects
@@ -5836,8 +5834,8 @@
 				)
 			)
 		)
-		(property "Value" "NPN"
-			(at 2.54 2.79 90)
+		(property "Value" "3904"
+			(at 4.02 -4.42 180)
 			(layer "F.Fab")
 			(uuid "d3f168ef-50ac-44c0-a497-9ec0568ce6dd")
 			(effects
@@ -6113,7 +6111,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J6"
-			(at 1.27 -4.12 90)
+			(at 5.08 0 180)
 			(layer "F.SilkS")
 			(uuid "5abdc379-2f3e-4373-b9c2-fdf885637fef")
 			(effects
@@ -6425,7 +6423,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R12"
-			(at 3.81 -1.92 90)
+			(at -1.62 0.32 180)
 			(layer "F.SilkS")
 			(uuid "683ad695-3703-4d53-a4f2-018d28dff93c")
 			(effects
@@ -6436,7 +6434,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 2.54 2.54 90)
+			(at 3.78 -1.88 270)
 			(layer "F.Fab")
 			(uuid "45db9399-fc2c-41f7-8116-949bebe73d03")
 			(effects
@@ -6597,14 +6595,14 @@
 			)
 		)
 	)
-	(footprint "Connector_Molex:Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical"
+	(footprint "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 		(layer "F.Cu")
 		(uuid "74ce4c72-ff41-46d4-9391-fa6874fdf82d")
-		(at 35.56 106.68 90)
-		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
-		(tags "connector Molex KK-254 vertical")
+		(at 35.56 106.68 -90)
+		(descr "Potentiometer, vertical, Bourns 3296W, https://www.bourns.com/pdfs/3296.pdf")
+		(tags "Potentiometer vertical Bourns 3296W")
 		(property "Reference" "RV15"
-			(at 2.54 -4.12 90)
+			(at -2.54 -3.66 90)
 			(layer "F.SilkS")
 			(uuid "02864836-72c9-4896-82f0-cb45ae522499")
 			(effects
@@ -6614,8 +6612,8 @@
 				)
 			)
 		)
-		(property "Value" "100k Lin Atten"
-			(at 2.54 4.08 90)
+		(property "Value" "100k Lin Atn"
+			(at -2.54 3.67 90)
 			(layer "F.Fab")
 			(uuid "e2f2cdda-066b-45f5-a298-68c9feb546df")
 			(effects
@@ -6648,11 +6646,11 @@
 			)
 		)
 		(property "Sim.Device" "R"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c40c5810-ffe0-4afe-8b66-9b2958d08ff8")
+			(uuid "59414c73-ab09-4f86-84b0-484e5fe768ea")
 			(effects
 				(font
 					(size 1 1)
@@ -6661,11 +6659,11 @@
 			)
 		)
 		(property "Sim.Type" "POT"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db5962c7-cac4-4197-8132-97e97bca9ab0")
+			(uuid "7b884910-7017-4716-89a8-946e524b570e")
 			(effects
 				(font
 					(size 1 1)
@@ -6674,11 +6672,11 @@
 			)
 		)
 		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 0 0 90)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "310aaedd-e06b-4f8a-af4b-52908cdfe516")
+			(uuid "98581995-0b90-42f7-a566-3734ff949cd6")
 			(effects
 				(font
 					(size 1 1)
@@ -6699,28 +6697,8 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 4.28 -3.03)
-			(end 4.28 -2.43)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "e6e01b13-82cf-4921-958d-8c9f700751bd")
-		)
-		(fp_line
-			(start 1.74 -3.03)
-			(end 1.74 -2.43)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "152046f4-2ea2-449a-ac2e-3cb8cad982c1")
-		)
-		(fp_line
-			(start -0.8 -3.03)
-			(end -0.8 -2.43)
+			(start -7.415 2.53)
+			(end -7.415 -2.52)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6729,8 +6707,8 @@
 			(uuid "6b7a4f77-eeb0-49a0-929f-b59fe658e238")
 		)
 		(fp_line
-			(start 5.88 -2.43)
-			(end 5.88 -3.03)
+			(start 2.335 2.53)
+			(end -7.415 2.53)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -6739,159 +6717,28 @@
 			(uuid "38a62a6d-ceb3-4ac5-a915-05c168333e6f")
 		)
 		(fp_line
-			(start 4.28 -2.43)
-			(end 5.88 -2.43)
+			(start -7.415 -2.52)
+			(end 2.335 -2.52)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ff27c64e-44c4-4a15-8bf2-1bb3cc2329c7")
+			(uuid "152046f4-2ea2-449a-ac2e-3cb8cad982c1")
 		)
 		(fp_line
-			(start 3.34 -2.43)
-			(end 3.34 -3.03)
+			(start 2.335 -2.52)
+			(end 2.335 2.53)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "feaa5b5d-a816-4d61-ac16-35629115429e")
-		)
-		(fp_line
-			(start 1.74 -2.43)
-			(end 3.34 -2.43)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "54cf6eea-dded-461c-9d2e-9c1763a43b9f")
-		)
-		(fp_line
-			(start 0.8 -2.43)
-			(end 0.8 -3.03)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "97d267d4-f6fd-4dc6-a1ac-945fc2b27bf8")
-		)
-		(fp_line
-			(start -0.8 -2.43)
-			(end 0.8 -2.43)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "40f41522-2ea9-42aa-a468-4d06009ad957")
-		)
-		(fp_line
-			(start -1.67 -2)
-			(end -1.67 2)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7a3bedd2-ccfd-47c3-ae33-d33ef36a20e0")
-		)
-		(fp_line
-			(start 4.83 1.46)
-			(end 5.08 1.99)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "ca5c7791-45b9-4da0-a81e-1f4e8342bad9")
-		)
-		(fp_line
-			(start 0.25 1.46)
-			(end 4.83 1.46)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7089b771-2e20-4b09-94ee-6a0e6368d3ae")
-		)
-		(fp_line
-			(start 5.08 1.99)
-			(end 5.08 2.99)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "44cbd7e5-0126-4e55-8571-a49b84253361")
-		)
-		(fp_line
-			(start 0 1.99)
-			(end 0.25 1.46)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "488af04d-9de8-46d2-ae82-c7cadcc4ab91")
-		)
-		(fp_line
-			(start 0 1.99)
-			(end 5.08 1.99)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "68f90eff-887f-44d8-be18-ffad80e0d4e5")
-		)
-		(fp_line
-			(start 4.83 2.99)
-			(end 4.83 1.99)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "7b5e29b1-fb7a-44a8-bafe-4a9eaa146386")
-		)
-		(fp_line
-			(start 0.25 2.99)
-			(end 0.25 1.99)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "fd3ea23c-d804-4b51-ac8a-df8b8e0d5a91")
-		)
-		(fp_line
-			(start 0 2.99)
-			(end 0 1.99)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "8402a072-94f8-42e1-800d-19daf96d61dc")
+			(uuid "e6e01b13-82cf-4921-958d-8c9f700751bd")
 		)
 		(fp_rect
-			(start -1.38 -3.03)
-			(end 6.46 2.99)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.SilkS")
-			(uuid "7d7cd866-222a-46bf-a40a-8a48cb2dcee4")
-		)
-		(fp_rect
-			(start -1.77 -3.42)
-			(end 6.85 3.38)
+			(start -7.56 -2.66)
+			(end 2.48 2.67)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -6901,18 +6748,8 @@
 			(uuid "a1386a7b-0e3d-447f-bfd4-a735523978d0")
 		)
 		(fp_line
-			(start -1.27 -0.5)
-			(end -0.562893 0)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d551db2b-a059-49b1-8cf9-fcbbb6191cf1")
-		)
-		(fp_line
-			(start -0.562893 0)
-			(end -1.27 0.5)
+			(start 1.785 0.453)
+			(end 0.258 1.98)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -6920,9 +6757,19 @@
 			(layer "F.Fab")
 			(uuid "7ebdaf3b-3633-4cc7-93b5-f1ad8370e365")
 		)
+		(fp_line
+			(start 1.652 0.32)
+			(end 0.125 1.847)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d551db2b-a059-49b1-8cf9-fcbbb6191cf1")
+		)
 		(fp_rect
-			(start -1.27 -2.92)
-			(end 6.35 2.88)
+			(start -7.305 -2.41)
+			(end 2.225 2.42)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -6931,8 +6778,19 @@
 			(layer "F.Fab")
 			(uuid "055e84c0-8df9-415b-926f-60a070dbd58e")
 		)
+		(fp_circle
+			(center 0.955 1.15)
+			(end 2.05 1.15)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "f564478e-2ad5-4083-bfeb-e610fa07f3e3")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 -2.22 90)
+			(at -3.175 0.005 90)
 			(layer "F.Fab")
 			(uuid "49bbd27c-3b7c-464b-b4f7-08923d149ffe")
 			(effects
@@ -6942,22 +6800,21 @@
 				)
 			)
 		)
-		(pad "1" thru_hole roundrect
-			(at 0 0 90)
-			(size 1.74 2.19)
-			(drill 1.19)
+		(pad "1" thru_hole circle
+			(at 0 0 270)
+			(size 1.44 1.44)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(roundrect_rratio 0.143678)
 			(net "GND")
 			(pinfunction "1_1")
 			(pintype "passive")
 			(uuid "e1622e2b-b336-4077-a279-3706b0b8cc54")
 		)
-		(pad "2" thru_hole oval
-			(at 2.54 0 90)
-			(size 1.74 2.19)
-			(drill 1.19)
+		(pad "2" thru_hole circle
+			(at -2.54 0 270)
+			(size 1.44 1.44)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(U2B-+)")
@@ -6965,10 +6822,10 @@
 			(pintype "passive")
 			(uuid "37307df9-ce80-4aca-95d4-f65dcb31c835")
 		)
-		(pad "3" thru_hole oval
-			(at 5.08 0 90)
-			(size 1.74 2.19)
-			(drill 1.19)
+		(pad "3" thru_hole circle
+			(at -5.08 0 270)
+			(size 1.44 1.44)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(U1-THRES)")
@@ -6977,7 +6834,7 @@
 			(uuid "908942b0-7a88-4a92-a9d8-d61b27fe8175")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Connector_Molex.3dshapes/Molex_KK-254_AE-6410-03A_1x03_P2.54mm_Vertical.step"
+		(model "${KICAD10_3DMODEL_DIR}/Potentiometer_THT.3dshapes/Potentiometer_Bourns_3296W_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6996,7 +6853,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R17"
-			(at 3.81 -9.54 0)
+			(at 7.54 1.86 0)
 			(layer "F.SilkS")
 			(uuid "e16bc985-5a84-46f8-ae39-4a6c8076a2a5")
 			(effects
@@ -7007,7 +6864,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 3.81 1.92 0)
+			(at 2.44 1.92 0)
 			(layer "F.Fab")
 			(uuid "0c7be4d3-5b75-468a-a5e2-8614055e7617")
 			(effects
@@ -7175,7 +7032,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R1"
-			(at 3.81 -1.92 90)
+			(at -3.38 0.03 180)
 			(layer "F.SilkS")
 			(uuid "e64bb16d-3777-4c11-be01-499d1656802f")
 			(effects
@@ -7186,7 +7043,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 3.81 1.92 90)
+			(at -1.88 0.03 180)
 			(layer "F.Fab")
 			(uuid "dba8a261-ab38-42fd-b366-ea00b2a4a26e")
 			(effects
@@ -7354,7 +7211,7 @@
 		(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 		(tags "TO-92L Inline Wide transistor")
 		(property "Reference" "Q2"
-			(at 12.62 -6.1 270)
+			(at -3.02 0.08 180)
 			(layer "F.SilkS")
 			(uuid "d2828778-ffa0-418a-bdcc-4f95148713ae")
 			(effects
@@ -7364,8 +7221,8 @@
 				)
 			)
 		)
-		(property "Value" "NPN"
-			(at 2.54 2.79 270)
+		(property "Value" "3904"
+			(at -1.67 -0.17 180)
 			(layer "F.Fab")
 			(uuid "4ba179d9-9ac4-4f77-9356-918d9d4e0f45")
 			(effects
@@ -7578,7 +7435,7 @@
 			(uuid "d4f89cec-3d34-480c-a32c-6b781267be02")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.54 0 270)
+			(at 2.54 0 90)
 			(layer "F.Fab")
 			(uuid "0e519f40-8924-48e9-833f-2250f9ca203f")
 			(effects
@@ -7641,7 +7498,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D2"
-			(at 3.81 -2.12 90)
+			(at -3.38 1.24 180)
 			(layer "F.SilkS")
 			(uuid "c06c1252-0dd1-4341-9b1a-df17336a96a8")
 			(effects
@@ -7652,7 +7509,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 90)
+			(at -1.88 1.74 0)
 			(layer "F.Fab")
 			(uuid "94977a9d-4578-44e4-9dd3-1e4d451f31d7")
 			(effects
@@ -7856,9 +7713,20 @@
 			(uuid "b394b663-2e50-406a-801b-2a901ac06264")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 90)
+			(at -0.13 1.74 180)
 			(layer "F.SilkS")
 			(uuid "cd11c5c0-84ac-4ad7-a938-46445bd341a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_text user "K"
+			(at 1.365 0 180)
+			(layer "F.Fab")
+			(uuid "d48f390c-cf37-453a-a45d-5ba93156fe89")
 			(effects
 				(font
 					(size 1 1)
@@ -7874,17 +7742,6 @@
 				(font
 					(size 0.8 0.8)
 					(thickness 0.12)
-				)
-			)
-		)
-		(fp_text user "K"
-			(at 0 -1.8 90)
-			(layer "F.Fab")
-			(uuid "d48f390c-cf37-453a-a45d-5ba93156fe89")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -7931,7 +7788,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R15"
-			(at 3.81 -1.92 90)
+			(at 10.54 -0.02 180)
 			(layer "F.SilkS")
 			(uuid "a679effa-5bd7-4389-9bd2-c14e09c9f236")
 			(effects
@@ -7942,7 +7799,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 3.81 1.92 90)
+			(at 9.14 -0.02 180)
 			(layer "F.Fab")
 			(uuid "9bb90e68-457c-43a2-85c4-cf950c961b12")
 			(effects
@@ -8110,7 +7967,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "RV11"
-			(at 2.54 -4.12 90)
+			(at 7.52 -7.56 180)
 			(layer "F.SilkS")
 			(uuid "fc8e6f9b-e641-4752-a06a-9095c44f21be")
 			(effects
@@ -8120,8 +7977,8 @@
 				)
 			)
 		)
-		(property "Value" "1M Log Release"
-			(at 2.54 4.08 90)
+		(property "Value" "1M Log Rel"
+			(at 2.52 -4.16 90)
 			(layer "F.Fab")
 			(uuid "34841c04-c743-46f6-ae50-d23574808052")
 			(effects
@@ -8502,9 +8359,8 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J3"
-			(at 1.27 -4.12 90)
+			(at 3.46 -7.36 180)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "62e4301a-72fe-4363-9d6f-71e7b6c1fc41")
 			(effects
 				(font
@@ -8514,7 +8370,7 @@
 			)
 		)
 		(property "Value" "Trigger"
-			(at 1.27 4.08 90)
+			(at 0.66 -4.56 90)
 			(layer "F.Fab")
 			(uuid "e66d3fc6-432a-42dd-9920-36c217920c65")
 			(effects
@@ -8815,9 +8671,8 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J2"
-			(at 1.27 -4.12 90)
+			(at 4.31 -4.56 180)
 			(layer "F.SilkS")
-			(hide yes)
 			(uuid "2a8527fd-0e05-407a-b9d9-5223f3ed3cf6")
 			(effects
 				(font
@@ -8827,7 +8682,7 @@
 			)
 		)
 		(property "Value" "GateIn"
-			(at 1.27 4.08 90)
+			(at 0.31 -4.56 270)
 			(layer "F.Fab")
 			(uuid "02607f59-3b98-4f17-b4cf-5e88710ed4da")
 			(effects
@@ -9075,7 +8930,7 @@
 			(uuid "b8f20800-9378-488d-ae74-492534605c96")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.27 -2.22 90)
+			(at 6.56 -2.22 180)
 			(layer "F.Fab")
 			(uuid "f73217f3-9d6f-4146-b69d-db25fffdff8b")
 			(effects
@@ -9128,7 +8983,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D5"
-			(at 3.81 -2.12 0)
+			(at -3.98 0.04 0)
 			(layer "F.SilkS")
 			(uuid "29b7180e-26ae-4bea-a195-532c366e2f2f")
 			(effects
@@ -9139,7 +8994,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 0)
+			(at -4.18 1.44 0)
 			(layer "F.Fab")
 			(uuid "9fdee52f-c946-4789-ab1e-38e35c2b3cad")
 			(effects
@@ -9343,7 +9198,7 @@
 			(uuid "728a0671-551a-4ad2-ba32-d93e59e87766")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 2.07 1.89 0)
 			(layer "F.SilkS")
 			(uuid "31ecd177-43b3-4b5d-b17a-7c1823d1cf68")
 			(effects
@@ -9354,7 +9209,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at 2.07 1.89 0)
 			(layer "F.Fab")
 			(uuid "a78c7a9a-c027-443b-8c9e-32f903453721")
 			(effects
@@ -9418,7 +9273,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R7"
-			(at 3.81 -1.92 90)
+			(at 10.59 -0.41 180)
 			(layer "F.SilkS")
 			(uuid "388bac72-d4b4-4dd2-8a92-81de553a2bac")
 			(effects
@@ -9429,7 +9284,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 3.81 1.92 90)
+			(at 9.34 -0.16 180)
 			(layer "F.Fab")
 			(uuid "89eab1b9-0c37-48a0-bf3d-552b6f017742")
 			(effects
@@ -9597,7 +9452,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, diameter=4mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm diameter 4mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C5"
-			(at 1 -3.25 90)
+			(at -3.52 0.22 180)
 			(layer "F.SilkS")
 			(uuid "72c87188-5759-4d35-ba53-e74336022b2a")
 			(effects
@@ -9607,8 +9462,8 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized_US"
-			(at 1 3.25 90)
+		(property "Value" "100u"
+			(at -2.02 -0.03 180)
 			(layer "F.Fab")
 			(uuid "15138680-c9dd-4fbe-bae5-1e9a511a98b1")
 			(effects
@@ -10717,7 +10572,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "D6"
-			(at 1.27 -4.12 90)
+			(at 3.52 -6.96 180)
 			(layer "F.SilkS")
 			(uuid "720e62ab-176a-4d9e-9a54-ea87be6ae886")
 			(effects
@@ -10728,7 +10583,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 1.27 4.08 90)
+			(at 1.32 -3.96 90)
 			(layer "F.Fab")
 			(uuid "75f02663-1b35-47d5-96fd-9524aa634732")
 			(effects
@@ -11042,7 +10897,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, length*diameter=4*2mm^2, http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D3"
-			(at 3.81 -2.12 0)
+			(at 8 2.24 0)
 			(layer "F.SilkS")
 			(uuid "b4e2c141-533d-401f-abf0-53fe018965dd")
 			(effects
@@ -11053,7 +10908,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 3.81 2.12 0)
+			(at 2 2.12 0)
 			(layer "F.Fab")
 			(uuid "ac150207-33a3-481c-b3af-73755910217a")
 			(effects
@@ -11257,7 +11112,7 @@
 			(uuid "8ec96c75-6765-4931-ab9b-ccb387658ed9")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at -1.45 0.94 0)
 			(layer "F.SilkS")
 			(uuid "edcc3f40-ff97-4a62-8cfb-66d684f49f90")
 			(effects
@@ -11279,7 +11134,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 0)
+			(at -1.45 0.94 0)
 			(layer "F.Fab")
 			(uuid "0ad96dbb-263d-42cd-b960-2701e5a2d73f")
 			(effects
@@ -11325,14 +11180,14 @@
 			)
 		)
 	)
-	(footprint "Capacitor_THT:C_Disc_D7.5mm_W2.5mm_P5.00mm"
+	(footprint "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "d2e66e37-554c-4076-8439-46ebff75f657")
 		(at 66.04 40.64 180)
-		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=7.5*2.5mm^2, Capacitor, http://www.vishay.com/docs/28535/vy2series.pdf")
-		(tags "C Disc series Radial pin pitch 5.00mm diameter 7.5mm width 2.5mm Capacitor")
+		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
+		(tags "C Disc series Radial pin pitch 5.00mm diameter 4.7mm width 2.5mm Capacitor")
 		(property "Reference" "C9"
-			(at 2.5 -2.5 0)
+			(at 5.29 2.39 180)
 			(layer "F.SilkS")
 			(uuid "19360ab4-1a99-4434-bb3e-1a481c7cc12e")
 			(effects
@@ -11343,7 +11198,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 2.5 2.5 0)
+			(at 2.5 2.5 180)
 			(layer "F.Fab")
 			(uuid "01ea75e8-6fc2-48f8-bfb9-c34e98df1fe6")
 			(effects
@@ -11354,7 +11209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b192a527-2778-4be4-81c2-8a4621823ae1")
@@ -11365,7 +11220,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8837bf48-87ce-418e-a79e-b9af6978faf4")
@@ -11388,8 +11243,18 @@
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start 6.37 1.37)
-			(end -1.37 1.37)
+			(start 4.97 1.37)
+			(end 0.03 1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "18d351d7-1852-489d-a375-4692d0ef03b7")
+		)
+		(fp_line
+			(start 4.97 1.04)
+			(end 4.97 1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11398,8 +11263,8 @@
 			(uuid "31c6b523-cb9d-4b67-872d-a446bb1bb3a2")
 		)
 		(fp_line
-			(start 6.37 -1.37)
-			(end 6.37 1.37)
+			(start 4.97 -1.37)
+			(end 4.97 -1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11408,8 +11273,8 @@
 			(uuid "4b290271-7072-4aab-86f0-212ecda81f14")
 		)
 		(fp_line
-			(start -1.37 1.37)
-			(end -1.37 -1.37)
+			(start 0.03 1.37)
+			(end 0.03 1.04)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11418,8 +11283,8 @@
 			(uuid "6f6b60df-2110-4a17-930a-024e65cc890c")
 		)
 		(fp_line
-			(start -1.37 -1.37)
-			(end 6.37 -1.37)
+			(start 0.03 -1.04)
+			(end 0.03 -1.37)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -11427,9 +11292,19 @@
 			(layer "F.SilkS")
 			(uuid "df9d6989-2a67-4d1a-87fe-93786899a1a6")
 		)
+		(fp_line
+			(start 0.03 -1.37)
+			(end 4.97 -1.37)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2b6d4a3f-a273-4be0-8f49-f6d30eef662f")
+		)
 		(fp_rect
-			(start -1.5 -1.5)
-			(end 6.5 1.5)
+			(start -1.05 -1.5)
+			(end 6.05 1.5)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -11439,8 +11314,8 @@
 			(uuid "07a0deb0-d480-4c3d-a90a-235873b72db6")
 		)
 		(fp_rect
-			(start -1.25 -1.25)
-			(end 6.25 1.25)
+			(start 0.15 -1.25)
+			(end 4.85 1.25)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -11450,20 +11325,20 @@
 			(uuid "4552b850-fe71-44a6-8487-990fe9b7bac9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 0 0)
+			(at 2.5 0 180)
 			(layer "F.Fab")
 			(uuid "4eda720c-6304-4199-bee7-2fe378e5d5e8")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.94 0.94)
+					(thickness 0.141)
 				)
 			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 180)
-			(size 2 2)
-			(drill 1)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "Net-(C4-Pad1)")
@@ -11472,8 +11347,8 @@
 		)
 		(pad "2" thru_hole circle
 			(at 5 0 180)
-			(size 2 2)
-			(drill 1)
+			(size 1.6 1.6)
+			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
 			(net "GND")
@@ -11481,7 +11356,7 @@
 			(uuid "f343a1b1-e6d8-44d8-8cc1-bc928d487843")
 		)
 		(embedded_fonts no)
-		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D7.5mm_W2.5mm_P5.00mm.step"
+		(model "${KICAD10_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D4.7mm_W2.5mm_P5.00mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11500,7 +11375,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R2"
-			(at 3.81 -1.92 0)
+			(at 2.69 -1.89 0)
 			(layer "F.SilkS")
 			(uuid "21cff760-136e-4bac-9077-8546a00db0f6")
 			(effects
@@ -11511,7 +11386,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 3.81 4.46 0)
+			(at 6.69 -1.89 0)
 			(layer "F.Fab")
 			(uuid "c103556b-1303-4a04-a123-fc77882268f7")
 			(effects
@@ -11679,7 +11554,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R20"
-			(at 3.81 -1.92 0)
+			(at -2.97 -0.97 0)
 			(layer "F.SilkS")
 			(uuid "366357ea-7ff3-4919-b694-64fae4013916")
 			(effects
@@ -11690,7 +11565,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 3.81 1.92 0)
+			(at -2.97 0.78 0)
 			(layer "F.Fab")
 			(uuid "ad6d82d4-b788-4a17-8ed9-abca88ca1ff7")
 			(effects
@@ -11858,7 +11733,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J1"
-			(at 7.7 -4.12 0)
+			(at 2.67 6.27 0)
 			(layer "F.SilkS")
 			(uuid "df57897a-f8c6-4699-bf0e-4780b5b24b97")
 			(effects
@@ -12211,7 +12086,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R9"
-			(at 3.81 -1.92 90)
+			(at 10.6 -0.12 180)
 			(layer "F.SilkS")
 			(uuid "47b2a7ce-b336-45aa-b1f0-34dd53ddf562")
 			(effects
@@ -12222,7 +12097,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 3.81 1.92 90)
+			(at 9.2 0.08 180)
 			(layer "F.Fab")
 			(uuid "eeef6e24-fe8e-4d8e-a389-0a2e8fc589af")
 			(effects
@@ -12390,7 +12265,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, diameter=4mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm diameter 4mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "C4"
-			(at 1 -3.25 90)
+			(at -3.52 0.04 180)
 			(layer "F.SilkS")
 			(uuid "6495127b-db96-490b-875a-1c6f83d0cee1")
 			(effects
@@ -12400,8 +12275,8 @@
 				)
 			)
 		)
-		(property "Value" "C_Polarized_US"
-			(at 1 3.25 90)
+		(property "Value" "100u"
+			(at -2.02 0.04 180)
 			(layer "F.Fab")
 			(uuid "6316a3fe-0e1a-4883-92d5-267bfaa2db2a")
 			(effects
@@ -13510,7 +13385,7 @@
 		(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
 		(tags "TO-92L Inline Wide transistor")
 		(property "Reference" "Q3"
-			(at 2.54 -3.56 270)
+			(at -3.02 0.16 0)
 			(layer "F.SilkS")
 			(uuid "4b6e4249-e1c4-44da-8b3c-2895b8a8f8b3")
 			(effects
@@ -13520,8 +13395,8 @@
 				)
 			)
 		)
-		(property "Value" "NPN"
-			(at 5.08 2.79 270)
+		(property "Value" "3904"
+			(at -1.67 -0.09 0)
 			(layer "F.Fab")
 			(uuid "ec6ea609-1c35-47e2-a0cd-19a364b7e67e")
 			(effects
@@ -13797,7 +13672,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R3"
-			(at 3.81 -1.92 0)
+			(at 1.33 1.99 0)
 			(layer "F.SilkS")
 			(uuid "25a51236-79de-4675-93a9-abaa235f39a1")
 			(effects
@@ -13808,7 +13683,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 3.81 1.92 0)
+			(at 4.83 1.99 0)
 			(layer "F.Fab")
 			(uuid "a6ca91fc-9c92-4f4d-99e1-97faf3442be7")
 			(effects
@@ -13976,7 +13851,7 @@
 		(descr "C, Disc series, Radial, pin pitch=5.00mm, diameter*width=4.7*2.5mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
 		(tags "C Disc series Radial pin pitch 5.00mm diameter 4.7mm width 2.5mm Capacitor")
 		(property "Reference" "C6"
-			(at 2.5 -2.5 0)
+			(at 1.53 -2.14 0)
 			(layer "F.SilkS")
 			(uuid "006606b0-24a2-4ae5-ada5-6f2091f500a9")
 			(effects
@@ -13987,7 +13862,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 2.5 2.5 0)
+			(at 5.03 -2.39 0)
 			(layer "F.Fab")
 			(uuid "382a4374-68c0-45df-a22e-8ba2cbf20066")
 			(effects
@@ -14164,7 +14039,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R19"
-			(at 3.81 -1.92 90)
+			(at -1.64 0.82 180)
 			(layer "F.SilkS")
 			(uuid "0745ea43-957a-4b8c-b42a-5b2a2e31dacc")
 			(effects
@@ -14175,7 +14050,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 3.81 1.92 90)
+			(at 6.46 1.72 180)
 			(layer "F.Fab")
 			(uuid "b76c820e-efe6-4d51-b3c1-74953d89147e")
 			(effects
@@ -14343,7 +14218,7 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-03A example for new part number: 22-27-2031, 3 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "RV13"
-			(at 2.54 -4.12 90)
+			(at -2.64 0.34 180)
 			(layer "F.SilkS")
 			(uuid "9c2370f8-9f98-48e2-8d47-822cbb74799c")
 			(effects
@@ -14353,8 +14228,8 @@
 				)
 			)
 		)
-		(property "Value" "1M Log Decay"
-			(at 2.54 4.08 90)
+		(property "Value" "1M Log Dky"
+			(at 2.36 -4.16 90)
 			(layer "F.Fab")
 			(uuid "5552b994-7210-454c-8c39-a4a09737def1")
 			(effects
@@ -14735,7 +14610,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R4"
-			(at 3.81 -1.92 90)
+			(at 10.59 -0.13 180)
 			(layer "F.SilkS")
 			(uuid "d5c0463b-9aec-486e-ab34-6657606c3f4c")
 			(effects
@@ -14746,7 +14621,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 3.81 1.92 90)
+			(at 9.34 -0.13 180)
 			(layer "F.Fab")
 			(uuid "a596fd4d-a187-4fc0-99c6-9b6a3a77d031")
 			(effects
@@ -14914,51 +14789,47 @@
 		(descr "Molex KK-254 Interconnect System, old/engineering part number: AE-6410-02A example for new part number: 22-27-2021, 2 Pins (http://www.molex.com/pdm_docs/sd/022272021_sd.pdf)")
 		(tags "connector Molex KK-254 vertical")
 		(property "Reference" "J5"
-			(at 1.27 4.12 90)
-			(layer "B.SilkS")
+			(at 1.27 6.96 180)
+			(layer "F.SilkS")
 			(uuid "b5708f9e-d45c-4c03-9dcb-a6bb4d5f7027")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
-		(property "Value" "Atten Out"
-			(at 1.27 -4.08 90)
-			(layer "B.Fab")
+		(property "Value" "Atn Out"
+			(at 1.27 4.16 90)
+			(layer "F.Fab")
 			(uuid "96905135-6ac1-4626-bcf7-4a596e741954")
 			(effects
 				(font
 					(size 1 1)
 					(thickness 0.15)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 90)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "78c4cc3d-fa70-40e2-9dc3-13d7dd66cedd")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 0 0 90)
-			(layer "B.Fab")
+			(layer "F.Fab")
 			(hide yes)
 			(uuid "94f75803-de89-43d0-8413-78fecaa911b3")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify mirror)
 			)
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
@@ -15225,8 +15096,8 @@
 		)
 	)
 	(gr_line
-		(start 25.4 25.4)
-		(end 25.4 129.54)
+		(start 22.86 25.4)
+		(end 22.86 129.54)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15235,8 +15106,8 @@
 		(uuid "2cf12684-e20b-4e90-af76-2fd1052449d9")
 	)
 	(gr_line
-		(start 25.4 129.54)
-		(end 106.68 129.54)
+		(start 22.86 129.54)
+		(end 91.44 129.54)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15245,8 +15116,8 @@
 		(uuid "49baa1b2-c88f-400f-80bf-fd17d0e4d858")
 	)
 	(gr_line
-		(start 106.68 25.4)
-		(end 25.4 25.4)
+		(start 91.44 25.4)
+		(end 22.86 25.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15255,8 +15126,8 @@
 		(uuid "a4be1003-bb4a-4299-b076-016c539f39a4")
 	)
 	(gr_line
-		(start 106.68 25.4)
-		(end 106.68 129.54)
+		(start 91.44 25.4)
+		(end 91.44 129.54)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15276,7 +15147,7 @@
 		(uuid "a950c9c5-2ae6-498a-a36f-af6332bbbd48")
 	)
 	(gr_text "Kassutronics Precision ADSR\nJohn Ellinger PCB Layout\nJune 2026"
-		(at 88.9 30.48 0)
+		(at 66.04 124.46 0)
 		(layer "F.SilkS")
 		(uuid "3736c82e-9245-4e35-a886-8bf0d8eb1bdf")
 		(effects
@@ -15528,14 +15399,6 @@
 		(uuid "0c032b5b-0883-4424-9088-fedef37f0498")
 	)
 	(segment
-		(start 76.74 85.82)
-		(end 78.74 85.82)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "11729f58-234a-4ff1-bdf6-5ede788d6151")
-	)
-	(segment
 		(start 73.66 63.5)
 		(end 78.74 63.5)
 		(width 0.5)
@@ -15558,14 +15421,6 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "207b8ec7-4c64-4c61-9eeb-41b2174e4348")
-	)
-	(segment
-		(start 76.2 81.28)
-		(end 76.2 86.36)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "24508af5-5fcc-4c89-9883-5d40f7ab08e8")
 	)
 	(segment
 		(start 33.02 106.68)
@@ -15624,14 +15479,6 @@
 		(uuid "4bbca2bb-ed74-4e69-a573-cd39b1a95c1b")
 	)
 	(segment
-		(start 76.2 86.36)
-		(end 76.74 85.82)
-		(width 0.5)
-		(layer "B.Cu")
-		(net "GND")
-		(uuid "5f8c36b8-507c-427a-8efd-0476166fde7b")
-	)
-	(segment
 		(start 35.56 33.02)
 		(end 33.02 33.02)
 		(width 0.5)
@@ -15670,6 +15517,14 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "6d1136c5-e61e-4d36-88a4-5f4ec856f23d")
+	)
+	(segment
+		(start 76.2 81.28)
+		(end 76.2 85.9)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "76f35858-582a-4bc4-bce6-6d2fbcc52a96")
 	)
 	(segment
 		(start 81.28 86.36)
@@ -15712,6 +15567,14 @@
 		(uuid "b27274ae-b2dd-4581-a93f-b5dd00f32606")
 	)
 	(segment
+		(start 76.2 85.9)
+		(end 76.74 85.82)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "b4a36030-c560-442d-8fde-ca633c38757e")
+	)
+	(segment
 		(start 35.56 27.94)
 		(end 35.56 33.02)
 		(width 0.5)
@@ -15726,6 +15589,14 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "cfbe227c-191a-4b5e-943f-8b5d520c7651")
+	)
+	(segment
+		(start 76.74 85.82)
+		(end 78.74 85.82)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "dee70876-986b-4f32-b9af-f8eecca84514")
 	)
 	(segment
 		(start 55.88 63.5)
@@ -15894,14 +15765,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net "+15V")
 		(uuid "a3fcf128-6dc1-462b-b760-7deddbb8ee94")
-	)
-	(via
-		(at 53.34 73.66)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "+15V")
-		(uuid "e7de10f5-2aff-4f70-8907-c66bde1fb5de")
 	)
 	(via
 		(at 66.04 50.8)
