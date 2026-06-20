@@ -3450,7 +3450,7 @@
 		(uuid "37caedcc-7c69-47c6-ba58-445769d6b3d4")
 	)
 	(junction
-		(at 90.17 24.13)
+		(at 128.27 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e4e32d2-ddd2-4e69-b2c5-0fefb776ea37")
@@ -3981,16 +3981,6 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 19.05) (xy 90.17 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f4a924d-5774-43c9-ac90-63a749c7e476")
-	)
-	(wire
-		(pts
 			(xy 114.3 99.06) (xy 114.3 102.87)
 		)
 		(stroke
@@ -4401,7 +4391,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 24.13) (xy 101.6 24.13)
+			(xy 128.27 41.91) (xy 139.7 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4801,7 +4791,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 24.13) (xy 90.17 27.94)
+			(xy 90.17 19.05) (xy 90.17 27.94)
 		)
 		(stroke
 			(width 0)
@@ -5059,16 +5049,6 @@
 		)
 		(uuid "2613c304-41b6-4944-a9d2-1de9bc3d2505")
 	)
-	(label "TRIG"
-		(at 172.72 20.32 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2fcdbc2f-6b55-43d1-83b0-346d387ec19d")
-	)
 	(label "ATTENOUT"
 		(at 203.2 101.6 0)
 		(effects
@@ -5089,18 +5069,8 @@
 		)
 		(uuid "a5f3800a-057f-46d6-b2c6-72e326f57ace")
 	)
-	(label "GATE"
-		(at 172.72 35.56 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "aa4382de-c56c-470d-8d0c-b71c4804babc")
-	)
 	(label "TRIG"
-		(at 101.6 24.13 0)
+		(at 139.7 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5128,84 +5098,6 @@
 			(justify left bottom)
 		)
 		(uuid "efcd9eea-ad1c-4097-b85c-66beb91dee60")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 172.72 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00d784eb-0f56-4aad-8ec1-e7ffb11f4ad5")
-		(property "Reference" "#PWR015"
-			(at 172.72 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "59ac2476-86cd-4a62-954a-431eaf592ae6")
-		)
-		(instances
-			(project "adsr7555_kassutronics"
-				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Timer:ICM7555xP")
@@ -9623,85 +9515,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 177.8 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9a01d899-d53d-4dd3-a044-44aadaf0fb01")
-		(property "Reference" "J4"
-			(at 177.8 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Gate"
-			(at 177.8 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 177.8 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 177.8 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f299279f-d7d6-47d7-8880-28f185ceae2d")
-		)
-		(pin "1"
-			(uuid "0e2654b8-1e21-4ea5-8b3a-019127292aea")
-		)
-		(instances
-			(project "adsr7555_kassutronics"
-				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 232.41 59.69 270)
 		(unit 1)
@@ -10134,85 +9947,6 @@
 			(project "adsr7555_kassutronics"
 				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 177.8 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "af30631d-7bfe-45e4-b1b3-c4d8a51f5cd3")
-		(property "Reference" "J3"
-			(at 177.8 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Trigger"
-			(at 177.8 26.67 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 177.8 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 177.8 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0c4f1f70-78ec-4888-b7a1-8a7848bc35e4")
-		)
-		(pin "1"
-			(uuid "a0d26a1c-4b2d-4f40-8484-34846ed59d1f")
-		)
-		(instances
-			(project "adsr7555_kassutronics"
-				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -11542,84 +11276,6 @@
 			(project "adsr7555_kassutronics"
 				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 172.72 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee0ed452-ec77-4869-ae9f-0b5cab9864a6")
-		(property "Reference" "#PWR016"
-			(at 172.72 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb9a54dc-6fcb-4f76-a4cc-862a711bd932")
-		)
-		(instances
-			(project "adsr7555_kassutronics"
-				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
