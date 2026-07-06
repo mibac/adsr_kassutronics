@@ -5,9 +5,9 @@
 	(uuid "eb9ffdf6-56c6-418d-ba14-e1598727bade")
 	(paper "A")
 	(title_block
-		(title "Kassutronics Precision ADSR")
-		(date "2026-06-10")
-		(rev "r1")
+		(title "Kassutronics Precision ADSR V2")
+		(date "2026-07-06")
+		(rev "r2")
 		(company "John Ellinger")
 	)
 	(lib_symbols
@@ -3462,12 +3462,6 @@
 		(uuid "428e91cc-7f25-44ea-be52-18e8cf49a919")
 	)
 	(junction
-		(at 187.96 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "45beae95-7eb2-467e-83a2-fe5050ea1b7f")
-	)
-	(junction
 		(at 172.72 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3683,16 +3677,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 104.14) (xy 161.29 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10febff2-b6d7-40f7-a944-3040022eb791")
-	)
-	(wire
-		(pts
 			(xy 80.01 76.2) (xy 90.17 76.2)
 		)
 		(stroke
@@ -3710,16 +3694,6 @@
 			(type default)
 		)
 		(uuid "1324af08-4e78-46ab-a09f-64fc07c034a3")
-	)
-	(wire
-		(pts
-			(xy 50.8 134.62) (xy 64.77 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1329a1bd-2c2d-49c5-b96e-6243f488ad6b")
 	)
 	(wire
 		(pts
@@ -3903,6 +3877,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 104.14) (xy 161.29 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2de5f18e-cd1e-48dd-9023-ae808db7a716")
+	)
+	(wire
+		(pts
 			(xy 99.06 63.5) (xy 99.06 88.9)
 		)
 		(stroke
@@ -3910,16 +3894,6 @@
 			(type default)
 		)
 		(uuid "300eb3e9-ad53-4b3d-a959-f25d26e6a8ea")
-	)
-	(wire
-		(pts
-			(xy 193.04 109.22) (xy 193.04 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31dd45ec-0419-4815-a8bd-7ee249d6116a")
 	)
 	(wire
 		(pts
@@ -4000,16 +3974,6 @@
 			(type default)
 		)
 		(uuid "3ff5d324-2a13-42db-bf7e-0ec2b807a93b")
-	)
-	(wire
-		(pts
-			(xy 161.29 113.03) (xy 189.23 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "412f8ae7-dca9-4958-8eb0-2c54b93b3e9d")
 	)
 	(wire
 		(pts
@@ -4103,16 +4067,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 124.46) (xy 187.96 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5822c32e-ecc6-4985-a40c-e4074a8897a2")
-	)
-	(wire
-		(pts
 			(xy 181.61 92.71) (xy 181.61 101.6)
 		)
 		(stroke
@@ -4140,16 +4094,6 @@
 			(type default)
 		)
 		(uuid "5e0e4525-7bf0-4dd4-9df1-bc3cda323758")
-	)
-	(wire
-		(pts
-			(xy 193.04 116.84) (xy 193.04 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6053d712-1ee2-447e-a290-4a852982d0c9")
 	)
 	(wire
 		(pts
@@ -4243,16 +4187,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 134.62) (xy 64.77 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66ca228f-0fb6-4991-be9a-018f50e7726f")
-	)
-	(wire
-		(pts
 			(xy 80.01 139.7) (xy 76.2 139.7)
 		)
 		(stroke
@@ -4343,16 +4277,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 146.05) (xy 152.4 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c7fe8ce-7446-4d7a-b624-fb882e026950")
-	)
-	(wire
-		(pts
 			(xy 106.68 63.5) (xy 109.22 63.5)
 		)
 		(stroke
@@ -4433,16 +4357,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 190.5) (xy 152.4 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85e741ca-eebd-441a-b72a-145a1dcf01d0")
-	)
-	(wire
-		(pts
 			(xy 27.94 66.04) (xy 27.94 78.74)
 		)
 		(stroke
@@ -4480,16 +4394,6 @@
 			(type default)
 		)
 		(uuid "8cb4c158-a114-4fcc-8b4f-02674d449e89")
-	)
-	(wire
-		(pts
-			(xy 187.96 146.05) (xy 187.96 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f6cfffa-6af4-403a-9749-d175c55dc11a")
 	)
 	(wire
 		(pts
@@ -4590,16 +4494,6 @@
 			(type default)
 		)
 		(uuid "9b9ec21c-7786-46cc-9984-8a3bed74de62")
-	)
-	(wire
-		(pts
-			(xy 152.4 146.05) (xy 187.96 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f77a3f1-beb7-4c46-83bf-48d78d7d79e0")
 	)
 	(wire
 		(pts
@@ -4953,6 +4847,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 135.89) (xy 187.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1447d8b-fc5d-45b3-9e56-cdc7039e9a57")
+	)
+	(wire
+		(pts
 			(xy 29.21 144.78) (xy 80.01 144.78)
 		)
 		(stroke
@@ -5041,7 +4945,17 @@
 		)
 		(uuid "079baf86-d219-4352-ac60-3cc570429250")
 	)
-	(label "ATTENOUT"
+	(label "THR"
+		(at 50.8 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "08219c5a-4145-4024-89b1-14098e161f47")
+	)
+	(label "INVOUT"
 		(at 210.82 39.37 180)
 		(effects
 			(font
@@ -5061,7 +4975,7 @@
 		)
 		(uuid "2613c304-41b6-4944-a9d2-1de9bc3d2505")
 	)
-	(label "ATTENOUT"
+	(label "INVOUT"
 		(at 218.44 77.47 0)
 		(effects
 			(font
@@ -5070,6 +4984,16 @@
 			(justify left bottom)
 		)
 		(uuid "4c569cf5-56cb-4fcc-9173-8c2e26f08858")
+	)
+	(label "THR"
+		(at 187.96 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "873992e3-5982-4dec-bef2-5310a0fe3d0f")
 	)
 	(label "GATE"
 		(at 25.4 138.43 180)
@@ -5204,124 +5128,6 @@
 			(project "adsr7555_v2kassutronics"
 				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Potentiometer_US")
-		(at 193.04 113.03 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "029265c0-bbdd-45ac-8be8-db1bf09704d0")
-		(property "Reference" "RV15"
-			(at 195.58 111.7599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100k Lin Atn"
-			(at 195.58 114.2999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
-			(at 193.04 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Potentiometer, US symbol"
-			(at 193.04 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "R"
-			(at 193.04 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "POT"
-			(at 193.04 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
-			(at 193.04 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1bb8d335-4c31-471a-bef1-c7fb134779ba")
-		)
-		(pin "3"
-			(uuid "0e904158-7008-48f4-b70b-2cb7417a6c60")
-		)
-		(pin "2"
-			(uuid "508f2fbe-aaa8-4ebf-bf06-0e3465b2d7ed")
-		)
-		(instances
-			(project "adsr7555_v2kassutronics"
-				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
-					(reference "RV15")
 					(unit 1)
 				)
 			)
@@ -6612,83 +6418,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 193.04 107.95 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "285553de-b548-4af7-9cc3-74be552b749c")
-		(property "Reference" "#PWR026"
-			(at 193.04 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.818 103.886 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ea2fabe-519d-4ec2-85f1-7c606f74a40d")
-		)
-		(instances
-			(project "adsr7555_v2kassutronics"
-				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
-					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:1N4148")
 		(at 57.15 73.66 270)
 		(unit 1)
@@ -7669,7 +7398,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4k7"
+		(property "Value" "22k-x4k7"
 			(at 123.19 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9163,6 +8892,84 @@
 			(project "adsr7555_v2kassutronics"
 				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d42bf19-8798-4a7e-9104-fb025dacb19d")
+		(property "Reference" "#PWR016"
+			(at 158.75 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef531b43-2a4c-4031-91e8-f5faf14e4f48")
+		)
+		(instances
+			(project "adsr7555_v2kassutronics"
+				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
