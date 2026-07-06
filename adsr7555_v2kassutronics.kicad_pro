@@ -502,7 +502,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "adsr7555_kassutronics.kicad_pro",
+    "filename": "adsr7555_v2kassutronics.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -657,18 +657,18 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "adsr7555_kassutronics.kicad_sch",
-        "name": "adsr7555_kassutronics",
+        "filename": "adsr7555_v2kassutronics.kicad_sch",
+        "name": "adsr7555_v2kassutronics",
         "uuid": "eb9ffdf6-56c6-418d-ba14-e1598727bade"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D5,C7,#PWR15,R11",
     "variants": []
   },
   "sheets": [
     [
       "eb9ffdf6-56c6-418d-ba14-e1598727bade",
-      "adsr7555_kassutronics"
+      "adsr7555_v2kassutronics"
     ]
   ],
   "text_variables": {},
