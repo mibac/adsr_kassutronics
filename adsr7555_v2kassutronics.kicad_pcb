@@ -9,8 +9,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Kassutronics Precision ADSR v2")
-		(date "2026-07-06")
-		(rev "01")
+		(date "2026-10-25")
+		(rev "02")
 		(company "John Ellinger")
 	)
 	(layers
@@ -14343,7 +14343,7 @@
 		(layer "User.15")
 		(uuid "e5d6c3cd-d7d1-493e-b152-531c941861dc")
 	)
-	(gr_text "Kassutronics Precision ADSR v2\nJohn Ellinger PCB Layout\nOct 22 2026\n537x780 px"
+	(gr_text "Kassutronics Precision ADSR v2\nJohn Ellinger PCB Layout\nOct 22 2026\n580x782 px"
 		(at 45.466 32.766 0)
 		(layer "F.SilkS")
 		(uuid "3736c82e-9245-4e35-a886-8bf0d8eb1bdf")
