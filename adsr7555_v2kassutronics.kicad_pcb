@@ -14335,6 +14335,18 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "U2-pin1: connected to GND\nD5 anode is connected to J5 GND and LED molex pin1\nLED molex pin 1 should not be GND\nJ5 pin 2 should be GND\n? SW1 pin 2 to 47k-1M voltage divider to Q1 base\n"
+		(at 121.92 66.04 0)
+		(layer "Cmts.User")
+		(uuid "84068456-251d-404b-aa98-e524376d0bb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Main Sheet"
 		(at 5 5 0)
 		(layer "User.15")
