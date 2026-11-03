@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "height": 1.5,
+          "width": 1.5
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -257,7 +257,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "r2"
+      "sch_revision": "r3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -667,7 +667,7 @@
         "uuid": "eb9ffdf6-56c6-418d-ba14-e1598727bade"
       }
     ],
-    "used_designators": "#PWR15-16,C7,D5,R11,TP1",
+    "used_designators": "#FLG3,#PWR15-16,C7,D5,Q1-6,R11,TP1",
     "variants": []
   },
   "sheets": [
