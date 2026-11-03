@@ -14297,7 +14297,7 @@
 		(layer "User.15")
 		(uuid "e5d6c3cd-d7d1-493e-b152-531c941861dc")
 	)
-	(gr_text "Kassutronics Precision ADSR v2\nJohn Ellinger PCB Layout\nOct 22 2026\n580x782 px"
+	(gr_text "Kassutronics Precision ADSR V2r3\nJohn Ellinger PCB Layout\nNov 3 2026\n580x782 px"
 		(at 45.466 32.766 0)
 		(layer "F.SilkS")
 		(uuid "3736c82e-9245-4e35-a886-8bf0d8eb1bdf")
@@ -14586,6 +14586,14 @@
 		(uuid "40dc8f06-c84c-4d77-9b3f-65e1da05f8a4")
 	)
 	(segment
+		(start 109.22 63.5)
+		(end 104.14 63.5)
+		(width 0.5)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "8c21d828-7c23-4a4e-9a37-e475c094fd67")
+	)
+	(segment
 		(start 109.22 83.82)
 		(end 114.3 83.82)
 		(width 0.5)
@@ -14624,6 +14632,14 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "f961bb7f-2c0b-4bd0-abb6-9059ac4be858")
+	)
+	(via
+		(at 109.22 63.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "33631f94-72bf-4c52-b19b-d4afa14932b8")
 	)
 	(via
 		(at 83.82 83.82)
@@ -14666,6 +14682,14 @@
 		(uuid "7cb2825b-8138-4946-b68b-e4755eda1459")
 	)
 	(via
+		(at 104.14 63.5)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net "GND")
+		(uuid "94e9615b-06a5-4d04-acd4-baa91edfd513")
+	)
+	(via
 		(at 106.68 86.36)
 		(size 0.6)
 		(drill 0.3)
@@ -14696,6 +14720,14 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "02db20dc-8232-4ec4-9d64-e50244dbc122")
+	)
+	(segment
+		(start 104.14 63.5)
+		(end 104.14 68.58)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "02dcc694-4cd2-4079-881f-89f85624e5e2")
 	)
 	(segment
 		(start 45.72 66.04)
@@ -14850,6 +14882,14 @@
 		(uuid "b23cf27c-4503-44bd-9ae8-d07d251d7798")
 	)
 	(segment
+		(start 109.22 30.48)
+		(end 109.22 63.5)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "bef8f7e2-b508-4a9f-b290-9f0bb54e0003")
+	)
+	(segment
 		(start 48.26 66.04)
 		(end 45.72 66.04)
 		(width 0.5)
@@ -14912,6 +14952,14 @@
 		(layer "B.Cu")
 		(net "GND")
 		(uuid "e3315fc9-a358-4042-a5e7-67160fa7bdab")
+	)
+	(segment
+		(start 81.28 30.48)
+		(end 109.22 30.48)
+		(width 0.5)
+		(layer "B.Cu")
+		(net "GND")
+		(uuid "ec3eb00e-0a74-41f8-9647-37c13a59f065")
 	)
 	(segment
 		(start 45.72 43.18)
