@@ -5,9 +5,9 @@
 	(uuid "eb9ffdf6-56c6-418d-ba14-e1598727bade")
 	(paper "USLetter")
 	(title_block
-		(title "Kassutronics Precision ADSR V2r3")
-		(date "2026-11-03")
-		(rev "r3")
+		(title "Kassutronics Precision ADSR V2r4")
+		(date "2026-11-07")
+		(rev "4")
 		(company "John Ellinger")
 	)
 	(lib_symbols
@@ -3093,6 +3093,17 @@
 			)
 		)
 		(uuid "1327929a-c761-4b3a-8c94-fdff88dd4566")
+	)
+	(text "Kassutronics Precision ADSR V2r4\nJohn Ellinger\nNov 7 2026"
+		(exclude_from_sim no)
+		(at 185.42 180.848 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left)
+		)
+		(uuid "2b37e823-bcfa-4db3-9edf-0c0f6bd0ca37")
 	)
 	(text "ccw"
 		(exclude_from_sim no)
