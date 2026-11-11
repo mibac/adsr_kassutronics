@@ -3478,7 +3478,7 @@
 		(uuid "5f226971-a76e-475d-b5ad-9271168666c7")
 	)
 	(junction
-		(at 227.33 97.79)
+		(at 223.52 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "63403557-1132-44fd-a183-e00f329d1d12")
@@ -3604,7 +3604,7 @@
 		(uuid "d7a79bbc-99fc-41cc-9cc0-c80e14c442f4")
 	)
 	(junction
-		(at 227.33 116.84)
+		(at 223.52 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddf0a7b0-250b-482c-bb58-ec407c09abd7")
@@ -3626,14 +3626,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc87adf7-ddca-4b02-b545-1d48986e2d0e")
-	)
-	(no_connect
-		(at 201.93 135.89)
-		(uuid "a536caf5-8f37-4f3a-a739-2b44478186e7")
-	)
-	(no_connect
-		(at 256.54 140.97)
-		(uuid "ac3e9ca8-db95-4ff8-9297-d67a1b33cf72")
 	)
 	(wire
 		(pts
@@ -3987,7 +3979,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 97.79) (xy 227.33 97.79)
+			(xy 236.22 87.63) (xy 223.52 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4107,7 +4099,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 116.84) (xy 227.33 119.38)
+			(xy 223.52 106.68) (xy 223.52 109.22)
 		)
 		(stroke
 			(width 0)
@@ -4244,6 +4236,16 @@
 			(type default)
 		)
 		(uuid "53a57ac5-1c5e-4b99-ab18-567b20c0ca67")
+	)
+	(wire
+		(pts
+			(xy 256.54 140.97) (xy 256.54 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579b67c8-101d-4680-bf6e-67ee2ece8227")
 	)
 	(wire
 		(pts
@@ -4747,7 +4749,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 109.22) (xy 240.03 97.79)
+			(xy 236.22 99.06) (xy 236.22 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4947,7 +4949,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 97.79) (xy 227.33 101.6)
+			(xy 223.52 87.63) (xy 223.52 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5047,6 +5049,16 @@
 	)
 	(wire
 		(pts
+			(xy 201.93 118.11) (xy 201.93 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d950acea-245b-428f-91f5-80d9b91ae0bb")
+	)
+	(wire
+		(pts
 			(xy 29.21 138.43) (xy 30.48 138.43)
 		)
 		(stroke
@@ -5057,7 +5069,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 116.84) (xy 240.03 116.84)
+			(xy 223.52 106.68) (xy 236.22 106.68)
 		)
 		(stroke
 			(width 0)
@@ -5124,6 +5136,16 @@
 			(type default)
 		)
 		(uuid "e985cdb0-015c-4076-a58f-d48e2e95065a")
+	)
+	(wire
+		(pts
+			(xy 256.54 118.11) (xy 201.93 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4af6a7-4fa3-47de-83ae-863a2efe0f96")
 	)
 	(wire
 		(pts
@@ -6582,7 +6604,7 @@
 	)
 	(symbol
 		(lib_id "power:-15V")
-		(at 227.33 119.38 180)
+		(at 223.52 109.22 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6593,7 +6615,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b2691e5-32fb-483d-bcc4-ae3d7a7a415b")
 		(property "Reference" "#PWR028"
-			(at 227.33 115.57 0)
+			(at 223.52 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6604,7 +6626,7 @@
 			)
 		)
 		(property "Value" "-15V"
-			(at 227.33 124.46 0)
+			(at 223.52 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6614,7 +6636,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 119.38 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6625,7 +6647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 119.38 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6636,7 +6658,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-15V\""
-			(at 227.33 119.38 0)
+			(at 223.52 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7272,7 +7294,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:TL072")
-		(at 229.87 109.22 0)
+		(at 226.06 99.06 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7283,7 +7305,7 @@
 		(fields_autoplaced yes)
 		(uuid "379ee4ec-183b-4009-b3f7-1fdfe6fdd8bd")
 		(property "Reference" "U3"
-			(at 228.6 107.9499 0)
+			(at 224.79 97.7899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7294,7 +7316,7 @@
 			)
 		)
 		(property "Value" "TL072"
-			(at 228.6 110.4899 0)
+			(at 224.79 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7305,7 +7327,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 229.87 109.22 0)
+			(at 226.06 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7316,7 +7338,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl071.pdf"
-			(at 229.87 109.22 0)
+			(at 226.06 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7327,7 +7349,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"
-			(at 229.87 109.22 0)
+			(at 226.06 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7488,7 +7510,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 240.03 113.03 180)
+		(at 236.22 102.87 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7499,7 +7521,7 @@
 		(fields_autoplaced yes)
 		(uuid "43dd4c39-bfee-48a0-90aa-2bf39146a084")
 		(property "Reference" "C7"
-			(at 243.84 111.7599 0)
+			(at 240.03 101.5999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7510,7 +7532,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 243.84 114.2999 0)
+			(at 240.03 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7521,7 +7543,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
-			(at 239.0648 109.22 0)
+			(at 235.2548 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7532,7 +7554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 113.03 0)
+			(at 236.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7543,7 +7565,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 240.03 113.03 0)
+			(at 236.22 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9798,7 +9820,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 227.33 97.79 0)
+		(at 223.52 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9809,7 +9831,7 @@
 		(fields_autoplaced yes)
 		(uuid "99063a2e-e871-46e6-ba68-1b7c6d75d244")
 		(property "Reference" "#PWR026"
-			(at 227.33 101.6 0)
+			(at 223.52 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9820,7 +9842,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 227.33 92.71 0)
+			(at 223.52 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9830,7 +9852,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 97.79 0)
+			(at 223.52 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9841,7 +9863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 227.33 97.79 0)
+			(at 223.52 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9852,7 +9874,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 227.33 97.79 0)
+			(at 223.52 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
