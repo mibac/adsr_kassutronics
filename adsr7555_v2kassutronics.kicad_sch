@@ -6349,10 +6349,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "162c1b36-20c4-4a25-80e7-d1e3b9066ddb")
 		(property "Reference" "C3"
-			(at 143.51 170.8149 0)
+			(at 131.318 173.482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6363,7 +6362,7 @@
 			)
 		)
 		(property "Value" "1u Tant"
-			(at 143.51 173.3549 0)
+			(at 131.318 176.022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
