@@ -6276,7 +6276,7 @@
 		(property "Reference" "J6"
 			(at 6.58 1 180)
 			(layer "F.SilkS")
-			(uuid "278aca01-ec79-4a2b-9be0-d3816144c3d3")
+			(uuid "c68d3e36-6817-4969-894e-1f8b0e04a7d6")
 			(effects
 				(font
 					(size 1 1)
@@ -6287,7 +6287,7 @@
 		(property "Value" "Output"
 			(at 7.05 -0.29 0)
 			(layer "F.Fab")
-			(uuid "996b1cb7-cab9-447a-804d-a1c2cfcb7e6a")
+			(uuid "afc65c05-609a-4805-8b26-94570a05df46")
 			(effects
 				(font
 					(size 1 1)
@@ -6299,7 +6299,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b951348f-ea7d-4ccd-97e7-e0320ac245da")
+			(uuid "fdbf0a1d-f0fb-48d7-be20-976ab8d91e22")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +6310,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "11cae65b-c159-4998-bda7-9e4341151efb")
+			(uuid "3cb1518a-3181-468e-a597-00fad5c51eb7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13729,7 +13729,7 @@
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R22"
-			(at 3.175 4.445 0)
+			(at 6.35 4.445 0)
 			(layer "F.SilkS")
 			(uuid "65b6f7c4-0a7a-47c8-92fb-01f7fb9c88a0")
 			(effects
@@ -13740,7 +13740,7 @@
 			)
 		)
 		(property "Value" "500"
-			(at 4.445 4.445 0)
+			(at 7.62 4.445 0)
 			(layer "F.Fab")
 			(uuid "0b25dac4-4d16-4edf-ac8a-38372b4d4d82")
 			(effects
@@ -15228,6 +15228,44 @@
 				(thickness 0.1)
 			)
 			(justify left bottom mirror)
+		)
+	)
+	(gr_text "Rotate 180\nto match gate\nRewire"
+		(at 41.402 132.842 0)
+		(layer "Cmts.User")
+		(uuid "2a343e35-a3d1-49f7-8994-36357f8af494")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "|-|<-"
+		(at 90.17 108.204 0)
+		(layer "Cmts.User")
+		(uuid "de3466b0-a018-41ca-b301-204e5a5821c6")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "<-"
+		(at 111.76 73.66 0)
+		(layer "Cmts.User")
+		(uuid "442ecda7-a292-4491-99d9-de61346ed52b")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
 		)
 	)
 	(gr_text "Main Sheet"
