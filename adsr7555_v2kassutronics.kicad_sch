@@ -5,9 +5,9 @@
 	(uuid "eb9ffdf6-56c6-418d-ba14-e1598727bade")
 	(paper "USLetter")
 	(title_block
-		(title "Kassutronics Precision ADSR V2r4")
-		(date "2026-11-07")
-		(rev "4")
+		(title "Kassutronics Precision ADSR V2r5")
+		(date "2026-11-12")
+		(rev "5")
 		(company "John Ellinger")
 	)
 	(lib_symbols
@@ -3366,7 +3366,7 @@
 		)
 		(uuid "1327929a-c761-4b3a-8c94-fdff88dd4566")
 	)
-	(text "Kassutronics Precision ADSR V2r4\nJohn Ellinger\nNov 7 2026"
+	(text "Kassutronics Precision ADSR V2r5\nJohn Ellinger\nNov 12 2026"
 		(exclude_from_sim no)
 		(at 185.42 180.848 0)
 		(effects
