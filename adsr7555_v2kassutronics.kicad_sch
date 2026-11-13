@@ -3526,6 +3526,12 @@
 		(uuid "858633dd-0a06-4956-b5e4-b4491cf7105d")
 	)
 	(junction
+		(at 68.58 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "92bd5bc7-3e4b-4c6c-98ac-168426db29ec")
+	)
+	(junction
 		(at 219.71 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4246,6 +4252,16 @@
 			(type default)
 		)
 		(uuid "579b67c8-101d-4680-bf6e-67ee2ece8227")
+	)
+	(wire
+		(pts
+			(xy 68.58 20.32) (xy 120.65 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57cfec35-8474-47e0-a79d-337825973f1c")
 	)
 	(wire
 		(pts
@@ -5036,6 +5052,16 @@
 			(type default)
 		)
 		(uuid "d683fd13-61bc-4abf-85a3-8f9208fa76ee")
+	)
+	(wire
+		(pts
+			(xy 53.34 20.32) (xy 68.58 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e6dcce-af72-405e-b4d5-7b4679e9c38c")
 	)
 	(wire
 		(pts
@@ -11418,84 +11444,6 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 53.34 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d4d38479-7df1-4925-87cc-14a961be462f")
-		(property "Reference" "#PWR07"
-			(at 53.34 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+15V"
-			(at 53.34 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 53.34 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4127ba6-72a1-4888-9d94-7ebb02ab6c93")
-		)
-		(instances
-			(project "adsr7555_v2kassutronics"
-				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
 		(at 187.96 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -12050,84 +11998,6 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 68.58 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f05057d6-8c10-456e-b700-03c076fd5c44")
-		(property "Reference" "#PWR08"
-			(at 68.58 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+15V"
-			(at 68.58 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 68.58 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ddf8dc7c-213e-4a7d-9e20-470d04820fa3")
-		)
-		(instances
-			(project "adsr7555_v2kassutronics"
-				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
 		(at 149.86 31.75 0)
 		(unit 1)
 		(body_style 1)
@@ -12426,84 +12296,6 @@
 			(project "adsr7555_v2kassutronics"
 				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
 					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+15V")
-		(at 120.65 20.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fda70beb-e044-4e35-b24a-e4d331e64158")
-		(property "Reference" "#PWR014"
-			(at 120.65 24.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+15V"
-			(at 120.65 15.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 120.65 20.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9b6e50b3-94b3-436f-8c9e-216328f0e930")
-		)
-		(instances
-			(project "adsr7555_v2kassutronics"
-				(path "/eb9ffdf6-56c6-418d-ba14-e1598727bade"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
