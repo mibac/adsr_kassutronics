@@ -15421,6 +15421,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "J5 pins connect"
+		(at 101.6 132.08 0)
+		(layer "Cmts.User")
+		(uuid "a96ee095-2d86-4bc1-b508-2a983f9e9981")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Main Sheet"
 		(at 5 5 0)
 		(layer "User.15")
