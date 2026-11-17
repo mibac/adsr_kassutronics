@@ -15373,7 +15373,7 @@
 		(layer "User.15")
 		(uuid "e5d6c3cd-d7d1-493e-b152-531c941861dc")
 	)
-	(gr_text "Kassutronics Precision ADSR V2r5\nJohn Ellinger PCB Layout\nNov 12 2026\n513x782 px"
+	(gr_text "Kassutronics Precision ADSR V2r5\nJohn Ellinger PCB Layout\nNov 17 2026\n513x782 px"
 		(at 45.466 32.766 0)
 		(layer "F.SilkS")
 		(uuid "3736c82e-9245-4e35-a886-8bf0d8eb1bdf")
@@ -15417,18 +15417,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "J5 pins connect"
-		(at 101.6 132.08 0)
-		(layer "Cmts.User")
-		(uuid "a96ee095-2d86-4bc1-b508-2a983f9e9981")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.3)
 			)
 			(justify left bottom)
 		)
