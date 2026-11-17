@@ -3677,6 +3677,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 67.31) (xy 217.17 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02e99e0a-04e0-491f-bbbb-e1b400ebe009")
+	)
+	(wire
+		(pts
 			(xy 69.85 107.95) (xy 69.85 111.76)
 		)
 		(stroke
@@ -3694,6 +3704,16 @@
 			(type default)
 		)
 		(uuid "04b40c18-a387-4b99-b43d-61ade7828221")
+	)
+	(wire
+		(pts
+			(xy 215.9 63.5) (xy 217.17 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c2e20a-e95e-4b23-b767-926c381b3d9b")
 	)
 	(wire
 		(pts
@@ -4327,7 +4347,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 69.85) (xy 214.63 69.85)
+			(xy 208.28 69.85) (xy 218.44 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4764,6 +4784,16 @@
 			(type default)
 		)
 		(uuid "a100776f-ef3e-4eb3-9484-59ebed4a9a4c")
+	)
+	(wire
+		(pts
+			(xy 217.17 67.31) (xy 218.44 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5980bc1-923e-47ad-808c-7cb68aba7cd6")
 	)
 	(wire
 		(pts
@@ -6979,7 +7009,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 214.63 72.39 0)
+		(at 215.9 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6987,10 +7017,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "22998a24-db2f-4d6b-8f05-95e6d497b02a")
 		(property "Reference" "#PWR024"
-			(at 214.63 78.74 0)
+			(at 215.9 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7001,7 +7030,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 214.63 77.47 0)
+			(at 213.614 66.548 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7011,7 +7040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 214.63 72.39 0)
+			(at 215.9 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7022,7 +7051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 214.63 72.39 0)
+			(at 215.9 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7033,7 +7062,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 214.63 72.39 0)
+			(at 215.9 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11285,7 +11314,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 219.71 69.85 0)
+		(at 223.52 69.85 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11293,10 +11323,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ce8ca2cf-4c14-4e69-9a72-11eb4472683c")
 		(property "Reference" "J5"
-			(at 222.25 69.8499 0)
+			(at 226.06 69.8501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11307,7 +11336,7 @@
 			)
 		)
 		(property "Value" "InvOut"
-			(at 222.25 72.3899 0)
+			(at 226.06 67.3101 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11318,7 +11347,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_KK-254_AE-6410-02A_1x02_P2.54mm_Vertical"
-			(at 219.71 69.85 0)
+			(at 223.52 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11329,7 +11358,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 69.85 0)
+			(at 223.52 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11340,7 +11369,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 219.71 69.85 0)
+			(at 223.52 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
